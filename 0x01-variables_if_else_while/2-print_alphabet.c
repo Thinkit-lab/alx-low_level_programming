@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>                                                                                                     #include <time.h>
+#include <stdlib.h>                                                                                                     
 
 /**
  * main - Entry point
@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int ch;
+	char ch;
 	for (ch= 'a'; ch<= 'z'; ch++)
 	{
 		putchar(ch);
