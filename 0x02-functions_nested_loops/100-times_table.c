@@ -11,9 +11,12 @@ void print_times_table(int n)
 
 	if (n > 0 && n <= 15)
 	{
+		while(i < n)
+		{
 		for (i = 1; i <= n; i++)
 		{
 			printf("%d\n", (n*i));
+		}
 		}	
 	}
 }
